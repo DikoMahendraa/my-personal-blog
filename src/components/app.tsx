@@ -8,14 +8,14 @@ export default function App({ children }: PropsWithChildren) {
     <div className="flex min-h-dvh flex-col space-y-6">
       <SiteHeader />
       <main className="container flex-1">{children}</main>
-      <footer className=" container border-t border-t-secondary/60 py-3 text-center">
+      <footer className="container border-t border-t-secondary/60 py-3 text-center text-cyan-500">
         <p className="text-xs text-muted-foreground">
           &copy; 2025 Created by{" "}
           <Link
             target="_blank"
             rel="noreferrer"
             href={siteConfig.social.github}
-            className="text-primary"
+            className="text-cyan-500"
           >
             {siteConfig.author}
           </Link>{" "}

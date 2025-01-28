@@ -39,7 +39,7 @@ export default function BlogPage() {
                 />
               )}
 
-              <h2 className="text-2xl font-extrabold text-primary">
+              <h2 className="text-2xl font-extrabold text-cyan-500">
                 {blog.title}
               </h2>
               {blog.description && (

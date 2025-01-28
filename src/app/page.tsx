@@ -17,7 +17,7 @@ export default function Home() {
               target="_blank"
               className={cn(
                 buttonVariants({ variant: "ghost" }),
-                "text-primary px-0 hover:bg-primary transition-colors rounded-full p-2 size-8 bg-primary/80"
+                "text-cyan-500 px-0 hover:bg-cyan-500 transition-colors rounded-full p-2 size-8 bg-cyan-500/80"
               )}
             >
               <social.icon className="size-6" />
@@ -26,19 +26,16 @@ export default function Home() {
           ))}
         </div>
         <h1 className="text-3xl capitalize sm:text-5xl md:text-6xl lg:text-7xl">
-          Hi, <span className="font-code text-yellow-300">I’m</span> <br />
-          <span className="font-code text-primary">Diko Mahendra</span>
+          Hi, <span className="text-cyan-500">I’m</span> <br />
+          <span className="font-semibold text-cyan-500">Diko Mahendra</span>
         </h1>
         <p className="max-w-2xl leading-normal text-muted-foreground sm:text-xl sm:leading-8">
           {siteConfig.description}
         </p>
-        <div className="space-x-4">
+        <div className="mt-4 space-x-4">
           <Link
             href="/blog"
-            className={cn(
-              buttonVariants({ size: "lg", variant: "secondary" }),
-              "border"
-            )}
+            className="rounded-lg border bg-cyan-500 px-6 py-4 font-semibold hover:bg-cyan-700"
           >
             My Blog
           </Link>
