@@ -6,9 +6,9 @@ export const siteConfig = {
   author: "diko.dev99@gmail.com",
   authorImage: authorAvatar,
   social: {
-    github: "https://github.com/devbertskie",
-    twitter: "https://twitter.com",
-    facebook: "https://facebook.com",
+    github: "https://github.com/DikoMahendraa",
+    twitter: "https://x.com/MahendraDi73682",
+    facebook: "https://www.facebook.com/diko.mahendra.790",
   },
 };
 

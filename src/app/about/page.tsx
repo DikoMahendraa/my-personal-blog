@@ -55,7 +55,7 @@ export default function AboutPage() {
           <p className="flex-1 text-center text-sm lg:text-start xl:text-base">
             🔭 I’m currently looking for{" "}
             <span className="text-orange-400">Fullstack Developer</span> prefer
-            as <span className="text-orange-400">Frontend</span>
+            as <span className="text-orange-400"> Frontend</span>
             Developer. <br />
             🤝 I’m looking for help with ChatGPT, Docs, Claude.ai, DeepSeek.{" "}
             <br />
